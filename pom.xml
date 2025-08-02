@@ -32,11 +32,11 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-  		<artifactId>maven-surefire-plugin</artifactId>
+		<artifactId>maven-surefire-plugin</artifactId>  
   		<configuration>
    			<argLine>--add-opens java.base/java.lang=ALL-UNNAMED</argLine>
  		 </configuration>
-           	 </plugin>
+            </plugin>
             <plugin>
             	<groupId>org.jolokia</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
